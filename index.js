@@ -4,7 +4,7 @@ const http = require('http');
 // Crear un servidor web
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('<h1>¡Hola Mundo desde Node.js en el navegador Con Mi-Os!</h1>');
+  res.end('<h1>¡Hola Mundo desde Node.js en el navegador Con Mimi!</h1>');
 });
 
 // Escuchar en el puerto 3000
